@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+span {
+  color: red;
+}
+h1 {
+  font-size: 25px;
+  padding: 5px;
+  margin-left: 10px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+input {
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+main {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #ffa1cf, #ff577f);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  min-height: 30vh;
+  width: 50%;
+  position: absolute;
+  /* top: 25%;
+  left: 35%; */
+  padding: 15px;
+  border-radius: 5px;
+  background: linear-gradient(
+    to right bottom,
+    rgba (#255, #255, #255, 0.7),
+    rgba (#255, #255, #255, 0.3)
+  );
+  /* background-color: bisque; */
+  align-items: center;
+  overflow: hidden;
+}
+
+.txt {
+  color: #000000;
+  margin-left: 30px;
+  margin-top: 100px;
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper:before {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#btn {
+  color: black;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 7px;
+  display: block;
+  cursor: pointer;
+  margin-top: 40px;
+}
+/* I did a lot of googling and yt to apply the glass effect,
+ this is my First project on my own after udemy course!! */

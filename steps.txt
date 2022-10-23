@@ -1,0 +1,47 @@
+BMI calculator:
+
+HTML:
+
+Take 2 inputs from user: Height (cm) and Weight (kg).
+
+Submit button to calculate.
+
+CSS:
+
+In body set margin and padding 0, change color, font and bg color.
+
+for wrapper/container of these elements: 
+
+- position absolute.
+- some padding n bg.
+
+for button: 
+
+- color, padding, border
+- bg, disp, margin top and cursor pointer.
+
+JS: 
+
+Get btn element by id.
+
+Add event listener to btn on click.
+
+parse H and W in int or float, get by id by value.
+
+Create result variables to change innerHtml to display results.
+
+H n W status to false at 1st to check inputs filled or not.
+
+Check user given H and W if they’re filled, ≤0 and if it is a number (isNan) to throw err msg my changing innerHTML to give valid params.
+
+if above is true set status to true.
+
+bmi= (w/(h*h)/10000);
+
+If inputs are correct calc bmi: 
+
+- if bmi<18.6 show under weight.
+- if bmi ≥18.6 & bmi ≤24.9 show normal.
+- if bmi ≥24.9 show over weight.
+- results.innerHTML for above.
+This is for rough idea, be creative with it!!
